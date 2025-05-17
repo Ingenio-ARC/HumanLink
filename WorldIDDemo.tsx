@@ -2,8 +2,8 @@ import React from "react";
 import { UsernameSearch, useIsUserVerified } from "@worldcoin/minikit-react";
 
 // Use Vite environment variables
-const app_id = import.meta.env.VITE_WLD_APP_ID || "app_cd3511284ee3bb5756dfcfcf7ffa9585";
-const action = import.meta.env.VITE_WLD_ACTION || "login";
+const app_id = import.meta.env.VITE_WLD_APP_ID ;
+const action = import.meta.env.VITE_WLD_ACTION ;
 
 export default function WorldIDDemo() {
   const [walletAddress, setWalletAddress] = React.useState("");
